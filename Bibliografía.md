@@ -1,0 +1,23 @@
+# Bibliografía
+
+- Introduction to algorithms
+  - Cormen, T. H., Leiserson, C. E., Rivest, R. L., & Stein, C. (2022). Introduction to algorithms. MIT press.
+- Data Structures and Algorithms Made Easy
+  - Narasimha Karumanchi, N. K. (2017). Data Structures And Algorithms Made Easy.
+- Algorithms
+  - Sedgewick, R., & Wayne, K. (2014). Algorithms: Part I. Addison-Wesley Professional.
+- Grokking Algorithms
+  - Bhargava, A. (2016). Grokking Algorithms: An illustrated guide for programmers and other curious people. Simon and Schuster.
+- The Algorithm Design Manual
+  - Skiena, S. S. (1998). The algorithm design manual (Vol. 2). New York: springer.
+- Algorithms in a Nutshell
+  - Heineman, G. T., Pollice, G., & Selkow, S. (2016). Algorithms in a nutshell: A practical guide. " O'Reilly Media, Inc.".
+- Problem-Solving with Algorithms and Data Structures using Python
+  - Miller, B. N., & Ranum, D. L. (2011). Problem solving with algorithms and data structures using python Second Edition. Franklin, Beedle & Associates Inc..
+- Eclipse IDE Pocket Guide: Using the Full-Featured Ide
+  - Burnette, E. (2005). Eclipse IDE Pocket Guide: Using the Full-Featured IDE. " O'Reilly Media, Inc.".
+- Python Crash Course
+  - Matthes, E. (2023). Python crash course: A hands-on, project-based introduction to programming. no starch press.
+- Head-First Python
+  - Barry, P. (2016). Head first Python: A brain-friendly guide. " O'Reilly Media, Inc.".
+- [Python para todos](https://es.py4e.com/book)
