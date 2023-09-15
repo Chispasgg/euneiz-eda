@@ -1,6 +1,6 @@
 # Ejercicio 3: Sistema de Gestión de Tareas
 
-**Descripción del Problema:** 
+**Descripción del Problema:**
 
 Diseña un sistema de gestión de tareas que permita a los usuarios crear, editar, completar y eliminar tareas. Cada tarea debe tener un título, una descripción y un estado (pendiente, en progreso, completada).
 
@@ -38,11 +38,13 @@ Clase ListaDeTareas:
         - ObtenerTareasPorEstado(estado)
 ```
 
-## Arquitectura Sugerida: Arquitectura Monolítica
+## Arquitectura Sugerida
+
+Cual es tu arquitectura sugerida para este problema
 
 ### Descripción
 
-Para un sistema de gestión de tareas simple, una arquitectura monolítica puede ser adecuada. En esta arquitectura, todos los componentes del sistema, como la interfaz de usuario, la lógica de negocio y la base de datos, se ejecutan en una sola aplicación. Esto simplifica el desarrollo inicial y es apropiado para aplicaciones pequeñas o prototipos. Sin embargo, a medida que la aplicación crece en complejidad, puede ser necesario migrar a una arquitectura más escalable, como una arquitectura de microservicios.
+Define el motivo de la elección de esa arquitectura
 
 ## Se requiere
 
@@ -52,5 +54,5 @@ Para un sistema de gestión de tareas simple, una arquitectura monolítica puede
   - [ ] del método para cambiar el estado de una tarea (pendiente, en progreso, completada)
   - [ ] del método para eliminar una tarea
 - Arquitectura:
-  - [ ] Definir otra alternativa a esta arquitectura y justificarla
-- Implementación del método para eliminar una tarea y determinar eficiencia de este código
+  - [ ] Definir la arquitectura y justificarla
+- Implementación del método **para eliminar una tarea** y determinar eficiencia de este código

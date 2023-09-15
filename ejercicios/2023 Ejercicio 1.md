@@ -1,6 +1,6 @@
 # Ejercicio 1: Sistema de Gestión de Biblioteca
 
-**Descripción del Problema:** 
+**Descripción del Problema:**
 
 Se requiere el diseño de un sistema de gestión de biblioteca que permita a los usuarios buscar y tomar prestados libros, así como a los bibliotecarios administrar el inventario y las transacciones de préstamo. El sistema debe permitir a los usuarios buscar libros por título, autor o género, y realizar un seguimiento de cuándo deben devolverlos.
 
@@ -38,11 +38,13 @@ Clase Biblioteca:
         - BuscarLibro(título, autor, género)
 ```
 
-## Arquitectura Sugerida: Arquitectura Cliente-Servidor
+## Arquitectura Sugerida
+
+Cual es tu arquitectura sugerida para este problema
 
 ### Descripción
 
-En esta arquitectura, el sistema de gestión de biblioteca consta de dos componentes principales: el cliente y el servidor. El servidor almacena la base de datos de libros y gestiona las operaciones de préstamo y devolución. El cliente proporciona una interfaz de usuario para que los usuarios busquen libros, realicen transacciones de préstamo y devolución, y administren sus cuentas. La comunicación entre el cliente y el servidor se realiza a través de solicitudes y respuestas, utilizando protocolos de red como HTTP.
+Define el motivo de la elección de esa arquitectura
 
 ## Se requiere
 
@@ -51,5 +53,5 @@ En esta arquitectura, el sistema de gestión de biblioteca consta de dos compone
   - [ ] del método para tomar prestado un libro
   - [ ] del método para devolver un libro
 - Arquitectura:
-  - [ ] Definir otra alternativa a esta arquitectura y justificarla
-- Implementación del método buscar un libro por título, autor o género y determinar eficiencia de este código
+  - [ ] Definir la arquitectura y justificarla
+- Implementación del método **buscar un libro por título, autor o género** y determinar eficiencia de este código

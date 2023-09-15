@@ -1,7 +1,5 @@
 # Estructuras de Datos y Algoritmos
 
-![Icono de Estructuras de Datos y Algoritmos](https://example.com/icon.png)
-
 Este repositorio contiene materiales relacionados con la asignatura de Estructuras de Datos y Algoritmos. Aquí aprenderás sobre conceptos clave en la programación, cómo manejar datos eficientemente y cómo diseñar algoritmos eficaces.
 
 ## Contenido
@@ -12,8 +10,9 @@ Este repositorio contiene materiales relacionados con la asignatura de Estructur
   - [Estructuras de Datos](#estructuras-de-datos)
   - [Algoritmos](#algoritmos)
   - [Herramientas](#herramientas)
-  - [Recursos Adicionales](#recursos-adicionales)
-  - [Contribución](#contribución)
+  - [Indice](#indice)
+  - [Ejercicios](#ejercicios)
+  - [Bibliografía](#bibliografía)
 
 ## Introducción
 
@@ -29,8 +28,6 @@ Aquí explorarás una variedad de estructuras de datos, como:
 - Grafos
 - Tablas de hash
 
-![Icono de Estructuras de Datos](https://example.com/data-structures.png)
-
 ## Algoritmos
 
 Estudiarás algoritmos clásicos y avanzados, incluyendo:
@@ -41,31 +38,27 @@ Estudiarás algoritmos clásicos y avanzados, incluyendo:
 - Divide y Vencerás
 - Programación Dinámica
 
-![Icono de Algoritmos](https://example.com/algorithms.png)
-
 ## Herramientas
 
 En esta asignatura, trabajarás con diversas herramientas, como:
 
-- Lenguajes de Programación (C++, Java, Python)
+- Lenguajes de Programación
 - Entornos de Desarrollo Integrado (IDEs)
 - Visualización de Algoritmos
 - Git y Control de Versiones
+- Contenedores
 
-![Icono de Herramientas](https://example.com/tools.png)
+## Indice
 
-## Recursos Adicionales
+El [índice](Indice.md) de la asignatura
 
-Aquí tienes algunos recursos adicionales para mejorar tus conocimientos:
+## Ejercicios
 
-- [Enlace a libro recomendado](https://example.com/book)
-- [Cursos en línea](https://example.com/courses)
-- [Sitios web útiles](https://example.com/websites)
+Los [ejercicios](ejercicios/Info_Ejercicios.md) de la asignatura
+## Bibliografía
 
-## Contribución
-
-Si deseas contribuir a este repositorio, ¡te damos la bienvenida! Por favor, sigue las pautas de contribución en el archivo [CONTRIBUTING.md](CONTRIBUTING.md).
+La [bibliografía](Bibliografía.md) de la asignatura
 
 ---
 
-¡Esperamos que disfrutes aprendiendo sobre Estructuras de Datos y Algoritmos! Si tienes alguna pregunta, no dudes en crear un problema o ponerte en contacto con [Nombre del Profesor](mailto:profesor@example.com).
+¡Esperamos que disfrutes aprendiendo sobre Estructuras de Datos y Algoritmos!
