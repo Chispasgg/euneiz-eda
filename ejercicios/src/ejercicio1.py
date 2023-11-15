@@ -46,9 +46,14 @@ if __name__ == '__main__':
     # Genera una lista de 5 diccionarios de ejemplo
     lista_libros = generar_lista(5)
     print(f"El numero de libros que tenemos es de {len(lista_libros)}")
-    titulo_a_buscar = ""
-    autor_a_buscar = ""
-    genero_a_buscar = ""
+    titulo_a_buscar = input("Titulo a buscar ")
+    autor_a_buscar = input("Autor a buscar ")
+    genero_a_buscar = input("Genero a buscar ")
+    
+    print(" Parametros de busqueda")
+    print(f"Titulo: {titulo_a_buscar}")
+    print(f"Autor:  {autor_a_buscar}")
+    print(f"Genero: {genero_a_buscar}")
     
     libro_buscado = buscar_libro(lista_libros,
                                  titulo_a_buscar,
