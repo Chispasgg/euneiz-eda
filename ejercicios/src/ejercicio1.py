@@ -45,22 +45,7 @@ def buscar_libro(lista_libros, titulo, autor, genero):
     # iniciamos la variable resultado
     libros_encontrados = []
     
-    # verificamos que tengamos algun dato que buscar
-    if titulo == '' and autor == '' and genero == '':
-        # si no tenemos ningun dato, devolvemos la lista vacia
-        return libros_encontrados
-    else: 
-        # si tenemos algun dato que buscar, nos recorremos todos los libros
-        for libro in lista_libros:
-            # verificamos que los campos de busqueda, o sean vacios o coincidan con el que buscamos
-            coincide_titulo = titulo == '' or libro['Titulo'] == titulo
-            coincide_autor = autor == '' or libro['Autor'] == autor
-            coincide_genero = genero == '' or  libro['Genero'] == genero
-            
-            # verificamos que todos los campos se cumplan, o vacio o coincide con la busqueda
-            if coincide_titulo and coincide_autor and coincide_genero:
-                # como coincide, lo almacenamos
-                libros_encontrados.append(libro)
+    
     
     # devolvemos la lsita de libros que hemos encontrado
     return libros_encontrados

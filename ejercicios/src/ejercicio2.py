@@ -91,7 +91,9 @@ class Aeropuerto:
         self.vuelos = vuelos
 
     def reservarAsiento(self, origen, destino, fecha, usuario):
-        # TODO: implementar
+        vuelo_reservado = None
+        
+        return vuelo_reservado
     
     def obtener_info_vuelos(self):
         ciudades_origen = set()
@@ -111,6 +113,29 @@ class Aeropuerto:
             if vuelo['origen'] == ciudad_origen:
                 posibles_destinos.append((vuelo['destino'], vuelo['fecha_salida'], vuelo['numero']))
         return posibles_destinos
+    
+    def buscar_vuelo(self, numero_vuelo):
+        for vuelo in self.vuelos:
+            if vuelo['numero'] == numero_vuelo:
+                print(" Vuelo encontrado")
+                return vuelo
+        return 
+    
+    def mostrar_asientos_disponibles(self, info_vuelo):
+        numero_vuelo = info_vuelo['numero']
+        asientos = info_vuelo['asientos_disponibles']
+    
+        print(f"Asientos Disponibles para {numero_vuelo}:")
+        print("=======================================")
+    
+        for i, fila in enumerate(asientos, start=1):
+            print(f"Fila {i}: ", end="")
+            for asiento in fila:
+                if asiento == 'Disponible':
+                    print("O ", end="")
+                else:
+                    print("X ", end="")
+            print()
 
 
 # Función para generar una lista de vuelos con valores aleatorios
@@ -157,9 +182,16 @@ if __name__ == '__main__':
             print(destino_posible)
         destino = input("> Ciudad Destino: ")
         fecha = input("> Fecha del vuelo YYYY-MM-DD: ")
+        num_vuelo = f'Vuelo {input("> Numero de vuelo: ")}'
+        
+        print("Estado del vuelo actual")
+        aeropuerto.mostrar_asientos_disponibles(aeropuerto.buscar_vuelo(num_vuelo))
+        
         usuario = input("> Nombre del usuario: ")
         
         # creamos el usuario
         usuario1 = Usuario(usuario, [])
-        aeropuerto.reservarAsiento(origen, destino, fecha, usuario1)  # Intenta reservar en el vuelo 001
+        vuelo = aeropuerto.reservarAsiento(origen, destino, fecha, usuario1)  # Intenta reservar en el vuelo 001
+        print("Actualización del vuelo")
+        aeropuerto.mostrar_asientos_disponibles(vuelo)
 
