@@ -1,6 +1,6 @@
 # Información
 
-Esta carpeta contiene los ejercicios que de la asignatura. Dee stos ejercicios, se deben elegir 3 para realizar, respondiendo a las preguntas que se plantean en ellos.
+Esta carpeta contiene los ejercicios que de la asignatura. Dentro de cada ejercicio se debe responder a las preguntas que se plantean en ellos.
 Es importante no repetir ni arquitecturas ni modelos de datos entre los ejercicios.
 Es decir, si en el ejercicio 1 se ha utilizado la arquitectura A y el modelo de datos B, en los siguientes ejercicios no se podrán utilizar.
 

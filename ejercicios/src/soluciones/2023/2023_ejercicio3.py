@@ -60,10 +60,15 @@ class Usuario:
                 break
 
     def eliminar_tarea_por_titulo(self, titulo):
-        print("TODO")
+        for tarea in self.lista_tareas.lista_tareas:
+            if tarea.titulo == titulo:
+                self.lista_tareas.lista_tareas.remove(tarea)
+                break
 
     def eliminar_tarea_por_estado(self, estado):
-        print("TODO")
+        tareas_a_eliminar = [tarea for tarea in self.lista_tareas.lista_tareas if tarea.estado == estado]
+        for tarea in tareas_a_eliminar:
+            self.lista_tareas.lista_tareas.remove(tarea)
 
 
 def generar_tarea_aleatoria():

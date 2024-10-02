@@ -1,0 +1,41 @@
+############################################### crear una nueva rama
+Partiendo de la rama en la que quieres tener como base, creamos la nueva rama
+    git checkout -b NUEVA_RAMA
+Haces algunas modificaciones y guardas lo que has hecho
+    git add-commit -m 'MENSAJE'
+generamos el upstream para esta nueva rama
+    git push --set-upstream origin NUEVA_RAMA
+Nueva rama creada
+
+#################### cambiar url del repo
+git remote set-url origin https://usuario@organizacion.org/espacio/proyecto.git
+
+#################### deshacer un merge
+git reset --hard HEAD~1
+
+#################### borrar una rama local
+git branch --delete <branchname>
+
+#################### RAMA_DESARROLLADA a master
+# estando en RAMA_DESARROLLADA
+git pull
+git checkout master
+git pull origin master
+git merge --no-ff RAMA_DESARROLLADA
+git push
+
+#################### master a RAMA_DESARROLLADA
+# estando en master
+git pull
+git checkout RAMA_DESARROLLADA
+git pull origin RAMA_DESARROLLADA
+git merge --no-ff master
+git push
+
+#################### master a main
+# estando en master
+git pull
+git checkout main
+git pull origin main
+git merge --no-ff master
+git push

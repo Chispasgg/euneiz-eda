@@ -92,8 +92,23 @@ class Aeropuerto:
 
     def reservarAsiento(self, origen, destino, fecha, usuario):
         vuelo_reservado = None
-        
-        return vuelo_reservado
+        for vuelo in self.vuelos:
+            if vuelo['origen'] == origen and vuelo['destino'] == destino and vuelo['fecha_salida'] == fecha:
+                asientos = vuelo['asientos_disponibles']
+                for i in range(len(asientos)):
+                    for j in range(len(asientos[i])):
+                        if asientos[i][j] == 'Disponible':
+                            asientos[i][j] = 'Ocupado'
+                            usuario.reservas.append(vuelo)
+                            vuelo_reservado = vuelo
+                            print(f"Reserva exitosa para {usuario.nombre} en el vuelo {vuelo['numero']} con asiento {i+1}-{j+1}")
+                            return vuelo_reservado
+                else:
+                    print("No hay asientos disponibles para este vuelo en la fecha solicitada.")
+                    return vuelo_reservado
+        else:
+            print("No hay vuelos disponibles con los criterios especificados.")
+            return vuelo_reservado
     
     def obtener_info_vuelos(self):
         ciudades_origen = set()
