@@ -2,8 +2,7 @@ version: '3.8'
 
 services:
   mongodb:
-    #image: mongo:latest
-    image: mongo:4.2
+    image: mongo:latest
     container_name: mongo_test
     restart: always
     ports:
