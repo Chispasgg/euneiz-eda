@@ -6,6 +6,7 @@ ejemplos-clase/clientes_socket_python/socket
 ejemplos-clase/clientes_socket_python/threading
 ejemplos-clase/**/resultado
 docker-info/**/mongo-data
+algoritmos/src/diferentes_ordenamientos/por_hacer/solucion/
 
 ### Eclipse ###
 .metadata
